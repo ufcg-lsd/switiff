@@ -1,0 +1,18 @@
+Compiling test case __kernel_rwf_t
+g++ -D_GNU_SOURCE -include config-host.h -o /tmp/fio-conf--2954-.exe /tmp/fio-conf--2954-.c
+Compiling test case __kernel_timespec
+g++ -D_GNU_SOURCE -include config-host.h -o /tmp/fio-conf--2954-.exe /tmp/fio-conf--2954-.c
+/tmp/fio-conf--2954-.c:2:10: fatal error: linux/time_types.h: Arquivo ou diretório inexistente
+ #include <linux/time_types.h>
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+Compiling test case open_how
+g++ -D_GNU_SOURCE -include config-host.h -o /tmp/fio-conf--2954-.exe /tmp/fio-conf--2954-.c
+/tmp/fio-conf--2954-.c: In function ‘int main(int, char**)’:
+/tmp/fio-conf--2954-.c:7:19: error: aggregate ‘main(int, char**)::open_how how’ has incomplete type and cannot be defined
+   struct open_how how;
+                   ^~~
+Compiling test case statx
+g++ -D_GNU_SOURCE -include config-host.h -o /tmp/fio-conf--2954-.exe /tmp/fio-conf--2954-.c
+Compiling test case C++
+g++ -D_GNU_SOURCE -include config-host.h -o /tmp/fio-conf--2954-.exe /tmp/fio-conf--2954-.c
